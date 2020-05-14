@@ -13,7 +13,7 @@ jobs:
         with:
           time: '10s'
 
-  release:
+  verify_hash:
     runs-on: ubuntu-latest
     needs: timer
     steps:
